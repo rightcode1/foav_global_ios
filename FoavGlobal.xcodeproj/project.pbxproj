@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF47E02D29477B1F0077ED44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47E02C29477B1F0077ED44 /* AppDelegate.swift */; };
+		DF47E02F29477B1F0077ED44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47E02E29477B1F0077ED44 /* SceneDelegate.swift */; };
+		DF47E03129477B1F0077ED44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47E03029477B1F0077ED44 /* ViewController.swift */; };
+		DF47E03429477B1F0077ED44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF47E03229477B1F0077ED44 /* Main.storyboard */; };
+		DF47E03629477B200077ED44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF47E03529477B200077ED44 /* Assets.xcassets */; };
+		DF47E03929477B200077ED44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF47E03729477B200077ED44 /* LaunchScreen.storyboard */; };
+		DF47E04429477B200077ED44 /* FoavGlobalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47E04329477B200077ED44 /* FoavGlobalTests.swift */; };
+		DF47E04E29477B200077ED44 /* FoavGlobalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47E04D29477B200077ED44 /* FoavGlobalUITests.swift */; };
+		DF47E05029477B200077ED44 /* FoavGlobalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47E04F29477B200077ED44 /* FoavGlobalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF47E04029477B200077ED44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF47E02129477B1F0077ED44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF47E02829477B1F0077ED44;
+			remoteInfo = FoavGlobal;
+		};
+		DF47E04A29477B200077ED44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF47E02129477B1F0077ED44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF47E02829477B1F0077ED44;
+			remoteInfo = FoavGlobal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF47E02929477B1F0077ED44 /* FoavGlobal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoavGlobal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF47E02C29477B1F0077ED44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF47E02E29477B1F0077ED44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF47E03029477B1F0077ED44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF47E03329477B1F0077ED44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF47E03529477B200077ED44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF47E03829477B200077ED44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF47E03A29477B200077ED44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF47E03F29477B200077ED44 /* FoavGlobalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoavGlobalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF47E04329477B200077ED44 /* FoavGlobalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoavGlobalTests.swift; sourceTree = "<group>"; };
+		DF47E04929477B200077ED44 /* FoavGlobalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoavGlobalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF47E04D29477B200077ED44 /* FoavGlobalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoavGlobalUITests.swift; sourceTree = "<group>"; };
+		DF47E04F29477B200077ED44 /* FoavGlobalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoavGlobalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF47E02629477B1F0077ED44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF47E03C29477B200077ED44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF47E04629477B200077ED44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF47E02029477B1F0077ED44 = {
+			isa = PBXGroup;
+			children = (
+				DF47E02B29477B1F0077ED44 /* FoavGlobal */,
+				DF47E04229477B200077ED44 /* FoavGlobalTests */,
+				DF47E04C29477B200077ED44 /* FoavGlobalUITests */,
+				DF47E02A29477B1F0077ED44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF47E02A29477B1F0077ED44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF47E02929477B1F0077ED44 /* FoavGlobal.app */,
+				DF47E03F29477B200077ED44 /* FoavGlobalTests.xctest */,
+				DF47E04929477B200077ED44 /* FoavGlobalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF47E02B29477B1F0077ED44 /* FoavGlobal */ = {
+			isa = PBXGroup;
+			children = (
+				DF47E02C29477B1F0077ED44 /* AppDelegate.swift */,
+				DF47E02E29477B1F0077ED44 /* SceneDelegate.swift */,
+				DF47E03029477B1F0077ED44 /* ViewController.swift */,
+				DF47E03229477B1F0077ED44 /* Main.storyboard */,
+				DF47E03529477B200077ED44 /* Assets.xcassets */,
+				DF47E03729477B200077ED44 /* LaunchScreen.storyboard */,
+				DF47E03A29477B200077ED44 /* Info.plist */,
+			);
+			path = FoavGlobal;
+			sourceTree = "<group>";
+		};
+		DF47E04229477B200077ED44 /* FoavGlobalTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF47E04329477B200077ED44 /* FoavGlobalTests.swift */,
+			);
+			path = FoavGlobalTests;
+			sourceTree = "<group>";
+		};
+		DF47E04C29477B200077ED44 /* FoavGlobalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF47E04D29477B200077ED44 /* FoavGlobalUITests.swift */,
+				DF47E04F29477B200077ED44 /* FoavGlobalUITestsLaunchTests.swift */,
+			);
+			path = FoavGlobalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF47E02829477B1F0077ED44 /* FoavGlobal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF47E05329477B200077ED44 /* Build configuration list for PBXNativeTarget "FoavGlobal" */;
+			buildPhases = (
+				DF47E02529477B1F0077ED44 /* Sources */,
+				DF47E02629477B1F0077ED44 /* Frameworks */,
+				DF47E02729477B1F0077ED44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoavGlobal;
+			productName = FoavGlobal;
+			productReference = DF47E02929477B1F0077ED44 /* FoavGlobal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF47E03E29477B200077ED44 /* FoavGlobalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF47E05629477B200077ED44 /* Build configuration list for PBXNativeTarget "FoavGlobalTests" */;
+			buildPhases = (
+				DF47E03B29477B200077ED44 /* Sources */,
+				DF47E03C29477B200077ED44 /* Frameworks */,
+				DF47E03D29477B200077ED44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF47E04129477B200077ED44 /* PBXTargetDependency */,
+			);
+			name = FoavGlobalTests;
+			productName = FoavGlobalTests;
+			productReference = DF47E03F29477B200077ED44 /* FoavGlobalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF47E04829477B200077ED44 /* FoavGlobalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF47E05929477B200077ED44 /* Build configuration list for PBXNativeTarget "FoavGlobalUITests" */;
+			buildPhases = (
+				DF47E04529477B200077ED44 /* Sources */,
+				DF47E04629477B200077ED44 /* Frameworks */,
+				DF47E04729477B200077ED44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF47E04B29477B200077ED44 /* PBXTargetDependency */,
+			);
+			name = FoavGlobalUITests;
+			productName = FoavGlobalUITests;
+			productReference = DF47E04929477B200077ED44 /* FoavGlobalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF47E02129477B1F0077ED44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DF47E02829477B1F0077ED44 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DF47E03E29477B200077ED44 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DF47E02829477B1F0077ED44;
+					};
+					DF47E04829477B200077ED44 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DF47E02829477B1F0077ED44;
+					};
+				};
+			};
+			buildConfigurationList = DF47E02429477B1F0077ED44 /* Build configuration list for PBXProject "FoavGlobal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF47E02029477B1F0077ED44;
+			productRefGroup = DF47E02A29477B1F0077ED44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF47E02829477B1F0077ED44 /* FoavGlobal */,
+				DF47E03E29477B200077ED44 /* FoavGlobalTests */,
+				DF47E04829477B200077ED44 /* FoavGlobalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF47E02729477B1F0077ED44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF47E03929477B200077ED44 /* LaunchScreen.storyboard in Resources */,
+				DF47E03629477B200077ED44 /* Assets.xcassets in Resources */,
+				DF47E03429477B1F0077ED44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF47E03D29477B200077ED44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF47E04729477B200077ED44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF47E02529477B1F0077ED44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF47E03129477B1F0077ED44 /* ViewController.swift in Sources */,
+				DF47E02D29477B1F0077ED44 /* AppDelegate.swift in Sources */,
+				DF47E02F29477B1F0077ED44 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF47E03B29477B200077ED44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF47E04429477B200077ED44 /* FoavGlobalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF47E04529477B200077ED44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF47E04E29477B200077ED44 /* FoavGlobalUITests.swift in Sources */,
+				DF47E05029477B200077ED44 /* FoavGlobalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF47E04129477B200077ED44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF47E02829477B1F0077ED44 /* FoavGlobal */;
+			targetProxy = DF47E04029477B200077ED44 /* PBXContainerItemProxy */;
+		};
+		DF47E04B29477B200077ED44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF47E02829477B1F0077ED44 /* FoavGlobal */;
+			targetProxy = DF47E04A29477B200077ED44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF47E03229477B1F0077ED44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF47E03329477B1F0077ED44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF47E03729477B200077ED44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF47E03829477B200077ED44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF47E05129477B200077ED44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF47E05229477B200077ED44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF47E05429477B200077ED44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y2KKQAP7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoavGlobal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rigthcode.FoavGlobal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF47E05529477B200077ED44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y2KKQAP7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoavGlobal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rigthcode.FoavGlobal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF47E05729477B200077ED44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y2KKQAP7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rigthcode.FoavGlobalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoavGlobal.app/FoavGlobal";
+			};
+			name = Debug;
+		};
+		DF47E05829477B200077ED44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y2KKQAP7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rigthcode.FoavGlobalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoavGlobal.app/FoavGlobal";
+			};
+			name = Release;
+		};
+		DF47E05A29477B200077ED44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y2KKQAP7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rigthcode.FoavGlobalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoavGlobal;
+			};
+			name = Debug;
+		};
+		DF47E05B29477B200077ED44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y2KKQAP7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rigthcode.FoavGlobalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoavGlobal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF47E02429477B1F0077ED44 /* Build configuration list for PBXProject "FoavGlobal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF47E05129477B200077ED44 /* Debug */,
+				DF47E05229477B200077ED44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF47E05329477B200077ED44 /* Build configuration list for PBXNativeTarget "FoavGlobal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF47E05429477B200077ED44 /* Debug */,
+				DF47E05529477B200077ED44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF47E05629477B200077ED44 /* Build configuration list for PBXNativeTarget "FoavGlobalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF47E05729477B200077ED44 /* Debug */,
+				DF47E05829477B200077ED44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF47E05929477B200077ED44 /* Build configuration list for PBXNativeTarget "FoavGlobalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF47E05A29477B200077ED44 /* Debug */,
+				DF47E05B29477B200077ED44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF47E02129477B1F0077ED44 /* Project object */;
+}
