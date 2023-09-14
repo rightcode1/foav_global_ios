@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="newInfoCell" rowHeight="70" id="u9S-ZR-7o3" customClass="newInfoTableViewCell" customModule="FOAV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="u9S-ZR-7o3" id="WWo-22-qg2">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="안녕하세요. 포아브입니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7f-8T-1bD">
+                        <rect key="frame" x="20" y="31" width="280" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="IDs-is-SQd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019.10.19" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8r-zr-5BG">
+                        <rect key="frame" x="20" y="14" width="81" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="81" id="TOV-SA-qhU"/>
+                            <constraint firstAttribute="height" constant="16" id="kWf-U6-aPD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.25490196079999999" green="0.58823529409999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="F7f-8T-1bD" firstAttribute="leading" secondItem="WWo-22-qg2" secondAttribute="leading" constant="20" id="JEs-jJ-W2P"/>
+                    <constraint firstItem="F7f-8T-1bD" firstAttribute="top" secondItem="O8r-zr-5BG" secondAttribute="bottom" constant="1" id="JiR-9G-aJC"/>
+                    <constraint firstAttribute="bottom" secondItem="F7f-8T-1bD" secondAttribute="bottom" constant="18.5" id="Vyi-eO-TjT"/>
+                    <constraint firstItem="O8r-zr-5BG" firstAttribute="leading" secondItem="WWo-22-qg2" secondAttribute="leading" constant="20" id="h0C-SN-v4e"/>
+                    <constraint firstAttribute="trailing" secondItem="F7f-8T-1bD" secondAttribute="trailing" constant="20" id="lOW-fb-Erg"/>
+                    <constraint firstItem="O8r-zr-5BG" firstAttribute="top" secondItem="WWo-22-qg2" secondAttribute="top" constant="14" id="txg-Rv-wnH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="O8r-zr-5BG" id="t8l-bI-NKh"/>
+                <outlet property="newInfoLabel" destination="F7f-8T-1bD" id="Bet-eU-cK8"/>
+            </connections>
+            <point key="canvasLocation" x="81.159420289855078" y="93.080357142857139"/>
+        </tableViewCell>
+    </objects>
+</document>

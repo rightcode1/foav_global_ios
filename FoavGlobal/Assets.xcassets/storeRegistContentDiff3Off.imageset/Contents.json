@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "storeRegistContentDiff3Off.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "storeRegistContentDiff3Off@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "storeRegistContentDiff3Off@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
