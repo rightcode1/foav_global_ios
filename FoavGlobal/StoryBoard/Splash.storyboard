@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sCp-Mc-M1e">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sCp-Mc-M1e">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -21,20 +21,20 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lottelogo" translatesAutoresizingMaskIntoConstraints="NO" id="Y0f-1n-P11">
-                                <rect key="frame" x="117" y="451" width="180" height="180"/>
+                                <rect key="frame" x="76.5" y="372.5" width="261" height="51"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="180" id="2Gn-Nf-YlL"/>
-                                    <constraint firstAttribute="width" constant="180" id="oSq-L7-bUh"/>
+                                    <constraint firstAttribute="height" constant="51" id="2Gn-Nf-YlL"/>
+                                    <constraint firstAttribute="width" constant="261" id="oSq-L7-bUh"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7gB-b6-wez"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="7gB-b6-wez" firstAttribute="bottom" secondItem="Y0f-1n-P11" secondAttribute="bottom" constant="231" id="46c-MC-YgV"/>
                             <constraint firstItem="7gB-b6-wez" firstAttribute="trailing" secondItem="W0t-TO-hwL" secondAttribute="trailing" id="9fK-AC-VAV"/>
                             <constraint firstItem="Y0f-1n-P11" firstAttribute="centerX" secondItem="HqV-ys-CH0" secondAttribute="centerX" id="c3o-qX-SZ9"/>
                             <constraint firstAttribute="bottom" secondItem="W0t-TO-hwL" secondAttribute="bottom" id="iI7-AJ-Xsd"/>
+                            <constraint firstItem="Y0f-1n-P11" firstAttribute="centerY" secondItem="HqV-ys-CH0" secondAttribute="centerY" constant="-50" id="lI2-ef-thT"/>
                             <constraint firstItem="W0t-TO-hwL" firstAttribute="leading" secondItem="7gB-b6-wez" secondAttribute="leading" id="oD9-se-hhv"/>
                             <constraint firstItem="W0t-TO-hwL" firstAttribute="top" secondItem="HqV-ys-CH0" secondAttribute="top" id="quQ-38-SiZ"/>
                         </constraints>
@@ -56,7 +56,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pf0-Jf-1Rt">
-                                <rect key="frame" x="45" y="321.5" width="324" height="173"/>
+                                <rect key="frame" x="45" y="323.5" width="324" height="173"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="업데이트가 필요합니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sD0-RX-gcb">
                                         <rect key="frame" x="15" y="67.5" width="294" height="18"/>
@@ -146,8 +146,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="intro" width="360" height="640"/>
-        <image name="lottelogo" width="293" height="293"/>
+        <image name="intro" width="720" height="1280"/>
+        <image name="lottelogo" width="512" height="102"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

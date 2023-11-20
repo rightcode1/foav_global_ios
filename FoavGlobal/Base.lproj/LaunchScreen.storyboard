@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,21 +19,21 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro" translatesAutoresizingMaskIntoConstraints="NO" id="uxv-oB-Zbm">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lottelogo" translatesAutoresizingMaskIntoConstraints="NO" id="Zba-hJ-sTE">
-                                <rect key="frame" x="117" y="451" width="180" height="180"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lottelogo" translatesAutoresizingMaskIntoConstraints="NO" id="PF4-uw-UmT">
+                                <rect key="frame" x="76.5" y="372.5" width="261" height="51"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="180" id="JH3-kG-sMe"/>
-                                    <constraint firstAttribute="width" constant="180" id="aho-kV-LRE"/>
+                                    <constraint firstAttribute="width" constant="261" id="eZJ-SB-zIQ"/>
+                                    <constraint firstAttribute="height" constant="51" id="qKT-0q-Th5"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nAf-FL-mvu"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="PF4-uw-UmT" firstAttribute="centerX" secondItem="cxp-k5-gVC" secondAttribute="centerX" id="5DR-dC-GgV"/>
                             <constraint firstItem="uxv-oB-Zbm" firstAttribute="leading" secondItem="nAf-FL-mvu" secondAttribute="leading" id="CNC-E4-GRa"/>
                             <constraint firstItem="uxv-oB-Zbm" firstAttribute="top" secondItem="cxp-k5-gVC" secondAttribute="top" id="Lyo-wV-i4V"/>
-                            <constraint firstItem="nAf-FL-mvu" firstAttribute="bottom" secondItem="Zba-hJ-sTE" secondAttribute="bottom" constant="231" id="ayY-3b-MdX"/>
-                            <constraint firstItem="Zba-hJ-sTE" firstAttribute="centerX" secondItem="cxp-k5-gVC" secondAttribute="centerX" id="dz1-vz-NqE"/>
+                            <constraint firstItem="PF4-uw-UmT" firstAttribute="centerY" secondItem="cxp-k5-gVC" secondAttribute="centerY" constant="-50" id="Tyk-mV-xBf"/>
                             <constraint firstAttribute="trailing" secondItem="uxv-oB-Zbm" secondAttribute="trailing" id="hDM-Ab-9GW"/>
                             <constraint firstAttribute="bottom" secondItem="uxv-oB-Zbm" secondAttribute="bottom" id="woR-eN-YTN"/>
                         </constraints>
@@ -45,7 +45,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="intro" width="360" height="640"/>
-        <image name="lottelogo" width="293" height="293"/>
+        <image name="intro" width="720" height="1280"/>
+        <image name="lottelogo" width="512" height="102"/>
     </resources>
 </document>
